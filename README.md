@@ -12,9 +12,9 @@ I present myself as a used-car market consultant at SecondGear Consulting, a Bri
 
 ## *The Dataset* 🗃
 
-The data was retrieved from 9 different brand .csv files (brand.csv) which can be downloaded by accessing this [Kaggle page](https://www.kaggle.com/datasets/adityadesai13/used-car-dataset-ford-and-mercedes?select=toyota.csv) The used-car listings were originally webscrapped by the author presumably in 2020.
+The data was retrieved from 9 different brand .csv files (brand.csv) which can be downloaded by accessing this [Kaggle page](https://www.kaggle.com/datasets/adityadesai13/used-car-dataset-ford-and-mercedes?select=toyota.csv). The used-car listings were originally webscrapped by the author presumably in 2020.
 
-The provided .csv files present one listing price (in pounds £) column and 8 attributes as follows:
+The provided .csv files present one listing price column (in pounds £) and 8 attributes as follows:
 
 - **model**: listed car model
 - **year**: listed car registration year
@@ -50,9 +50,9 @@ As a final step, I evaluated the model’s performance using four key metrics: R
 
 ##### *Predictive Pricing Tool* 🤖🚗
 
-After saving my ML model, I developed an auxiliary Python script (app.py) to showcase a web application supported by Streamlit interface and components. In this app the user is able to provide inputs like car brand an model, transmission and fuel type, registration year and mileage (kms) and get a predictive price that will support their buying decisions.
+After saving my ML model, I developed an auxiliary Python script (app.py) to showcase a web application supported by Streamlit interface and components. In this app the users are able to provide inputs (car brand and model, transmission and fuel type, registration year and mileage (kms)) and get a predictive price that will support their buying decisions.
 
-In this repo you will find all the necessary files to set up and run the project yourself
+In this repo you will find all the necessary files to set up and run the project yourself:
   - Start by installing the environment dependencies in your own virtual environment using *pip install -r requirements.txt*;
   - Run the jupyter notebook so that you can save the ML model in a .pkl format; 
   - With your chosen environment activated run the following command in your terminal *streamlit run app.py*;
